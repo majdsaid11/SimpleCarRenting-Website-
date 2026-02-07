@@ -2,6 +2,7 @@
 
 AutoGT is a responsive **car rental front-end website** built with **HTML, CSS, and Vanilla JavaScript**.  
 It loads cars from a JSON file, supports **search & filtering**, and allows users to **book a car** by generating a **WhatsApp order message**.
+
 *Since there is no backend implementation for this website it uses reliable third-party services where possible.  
 For booking requests, it uses a WhatsApp direct link to send a well-structured message to the rental office.
 for more info about implementation please check orderpagejs.js*
