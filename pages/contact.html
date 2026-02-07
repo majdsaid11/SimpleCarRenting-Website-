@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | AutoGT</title>
+
+<link rel="stylesheet" href="../styles/elements.css">
+<link rel="stylesheet" href="../styles/pages.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,200..700,0..1,-50..200" />
+
+
+</head>
+
+<body class="bodypage">
+  <!-- إذا عندك Navbar موحّد، خلي سكربت navi-bar.js يتولى التنقل -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#" style="color: rgb(255, 84, 84); font-weight: bolder;">AutoGT</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" onclick="navigateToHomePage();">Home</a></li>
+        <li><a href="#" onclick="navigateToBrandPage();">Brands</a></li>
+        <li><a href="#" onclick="navigateTolocationPage();">Locations</a></li>
+        <li><a href="#" style="color:#ffb400;">Contact</a></li>
+        <li><a href="#" onclick="navigateToAboutPage();">About Us</a></li>
+        <li><a href="#" class="book-now" onclick="navigateToCarsPage();">Browse Cars</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-wrap">
+    <section class="contact-card">
+      <h1>Contact Details</h1>
+      <p class="sub">You can reach us through the following channels.</p>
+
+      <div class="info-list">
+        <div class="info-item">
+          <span class="material-symbols-outlined">location_on</span>
+          <div>
+            <div class="label">Address</div>
+            <div class="value">Ajman University</div>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="material-symbols-outlined">mail</span>
+          <div>
+            <div class="label">Email</div>
+            <div class="value">Majd Said Elbah — 202211797@ajmanuni.ac.ae</div>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="material-symbols-outlined">call</span>
+          <div>
+            <div class="label">Phone / WhatsApp</div>
+            <div class="value">+971 56 100 6884</div>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="material-symbols-outlined">link</span>
+          <div>
+            <div class="label">LinkedIn</div>
+            <a href="https://www.linkedin.com/in/majd-elbah-922a1924b" target="_blank" rel="noopener">Open profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+       <a class="contact-btn secondary" href="../index.html">
+  <span class="material-symbols-outlined">arrow_back</span>
+  Back to Website
+</a>
+
+<a class="contact-btn" href="mailto:202211797@ajmanuni.ac.ae">
+  <span class="material-symbols-outlined">send</span>
+  Email Us
+</a>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="../pagesjavasc/navi-bar.js"></script>
+
+</body>
+</html>

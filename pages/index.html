@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoGT</title>
+<link rel="stylesheet" href="../styles/elements.css">
+<link rel="stylesheet" href="../styles/pages.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body class="bodypage">
+
+    <header>
+        <nav>
+<div class="nav-left">
+<button class="hamburger" type="button" aria-label="Open settings" onclick="toggleSettingsDrawer(true)">
+<span class="material-symbols-outlined">menu</span>
+</button>
+
+ <button class="search-toggle" type="button" aria-label="Search" onclick="toggleMobileSearch()">
+  <span class="material-symbols-outlined">search</span>
+</button>
+            <div class="logo">
+                <a href="#" style="color: rgb(255, 84, 84); font-weight: bolder;">majd</a>
+            </div>
+</div>
+
+            <ul class="nav-links">
+             
+                <li><a href="#" onclick="navigateToHomePage(); " data-i18n="home">Home </a></li>
+                <li><a href="#" onclick="navigateToBrandPage();" data-i18n="brands">Brands</a></li>
+                <li><a href="#" onclick="navigateTolocationPage();" data-i18n="locations">Locations </a></li>
+                <li><a href="#" onclick="navigateTocontactPage();" data-i18n="contact">Contact</a></li>
+                <li><a href="#" onclick="navigateToAboutPage();" data-i18n="about">About Us </a></li>
+                <li><a href="#" class="book-now" onclick="navigateToCarsPage();" data-i18n="browseCars">Browse Cars</a></li>
+         
+</ul>
+        </nav>
+    </header>
+<div id="mobileSearchOverlay" class="settings-overlay" onclick="toggleMobileSearch(false)"></div>
+
+<div id="mobileSearchBox" class="mobile-search-box" aria-hidden="true">
+  <form class="mobile-search-form" onsubmit="handleNavSearch(event); toggleMobileSearch(false);">
+    <span class="material-symbols-outlined">search</span>
+    <input id="navSearchInputMobile" type="text" placeholder="Search (SUV, Toyota, Sport...)">
+    <button type="submit">Go</button>
+  </form>
+</div>
+<div id="settingsOverlay" class="settings-overlay" onclick="toggleSettingsDrawer(false)"></div>
+
+<aside id="settingsDrawer" class="settings-drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <div class="drawer-title" data-i18n="settings">Settings</div>
+    <button class="drawer-close" type="button" aria-label="Close" onclick="toggleSettingsDrawer(false)">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+  </div>
+
+  <div class="drawer-section">
+    <label for="langSelect" data-i18n="language">Language</label>
+    <select id="langSelect" class="langse">
+      <option value="en" data-i18n="english">English</option>
+      <option value="ar" data-i18n="arabic">العربية</option>
+    </select>
+  </div>
+
+  <div class="drawer-section">
+    <div class="switch-row">
+      <span data-i18n="darkTheme">Dark theme</span>
+
+      <label class="theme-switch" aria-label="Toggle theme">
+        <input id="themeToggle" type="checkbox">
+        <span></span>
+      </label>
+    </div>
+  </div>
+</aside>
+
+<hr style="margin-bottom: 30px;">
+
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    
+<div class="Specifications">
+
+    <div class="C-info">
+        <div class="C-infoTitle"> <p data-i18n="exploreNewest">Explore Newest Models</p></div>
+        <div class="C-infoIMG-div"><img src="../carPhotos/CUVScars/Mercedes-GLE63-AMG-2.webp" alt="" class="C-infoIMG"></div>
+        <div class="C-info-button"><a href="../pages/cars.html?minYear=2022"><button class="C-info-button-js" data-i18n="viewDetails"> view details</button></a></div>
+    </div>
+
+    <div class="C-info">
+        <div class="C-infoTitle"><p data-i18n="sport">Sport</p> </div>
+        <div class="C-infoIMG-div"><img src="../carPhotos/porsche-oldtimer-mühlheim-mulhouse-c28063a785162686560b46cc3b93f811.jpg" alt="" class="C-infoIMG">
+        </div>
+        <div class="C-info-button"><a href="../pages/cars.html?cat=Sport"><button class="C-info-button-js" data-i18n="viewDetails">view details</button></a></div>
+    </div>
+
+    <div class="C-info">
+        <div class="C-infoTitle"><p data-i18n="specialOffers">Special Offers</p></div>
+        <div class="C-infoIMG-div"><img src="../carPhotos/Toyota/image.png" alt="" class="C-infoIMG" >
+        </div>
+        <div class="C-info-button"><a href="../pages/cars.html?offers=1"><button class="C-info-button-js" data-i18n="viewDetails"> view details</button></a></div>
+    </div>
+
+    <div class="C-info">
+        <div class="C-infoTitle"><p data-i18n="offroad"> OFF-ROAD</p></div>
+        <div class="C-infoIMG-div"><img src="../carPhotos/images.jpeg" alt="" class="C-infoIMG">
+    </div>
+    <div class="C-info-button"><a href="../pages/cars.html?cat=Offroad"><button class="C-info-button-js" data-i18n="viewDetails"> view details</button></a></div>
+</div>
+</div>
+
+<div class="thumb-nail-contaner">
+
+<div class="thumb-nail">
+    <p class="par-thumb-nail"><strong>Top gear</strong>: Redefining Mobility
+Founded in 2008, Top Gear is on a mission to revolutionize travel by offering a seamless platform for car rentals. With a diverse fleet of vehicles and a user-friendly interface, customers can easily find and reserve their ideal vehicle for any occasion.
+
+Our commitment to excellence is reflected in our innovative features, including advanced search filters and 24/7 customer support. We also prioritize sustainability by offering eco-friendly vehicle options.
+
+Recognized for our dedication to quality and innovation, [Your Car Rental Website Name] continues to lead the industry, redefining mobility for travelers worldwide.</p>
+</div>
+
+
+</div>
+<div class="footer">
+<p>© 2024 AutoGT — Developed by Majd Said Elbah. All rights reserved.</p></div>
+<script src="../pagesjavasc/navi-bar.js"></script>
+<script src="../pagesjavasc/settings.js"></script>
+
+</body>
+</html>

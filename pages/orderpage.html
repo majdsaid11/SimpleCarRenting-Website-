@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>submitOrder</title>
+
+  <link rel="stylesheet" href="../styles/elements.css">
+  <link rel="stylesheet" href="../styles/pages.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body class="bodypage" style="padding-bottom:40px;">
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#" style="color: rgb(255, 84, 84); font-weight: bolder;">AutoGT</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" onclick="navigateToHomePage();" data-i18n="home">Home</a></li>
+
+        <li><a href="#" onclick="navigateToBrandPage();" data-i18n="cars">Models</a></li>
+
+        <li><a href="#" onclick="navigateTolocationPage();" data-i18n="locations">Locations</a></li>
+
+        <li><a href="#" onclick="navigateToAboutPage();" data-i18n="about">About Us</a></li>
+
+        <li><a href="#" onclick="navigateTocontactPage();" data-i18n="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<section id="selectedCarBox" class="selected-car-box" aria-label="Selected car">
+  <img id="selectedCarImg" class="selected-car-img" alt="Selected car" loading="lazy">
+  <div id="selectedCarInfo" class="selected-car-info"></div>
+</section>
+  <div class="container">
+    <h1>
+      Thanks for choosing
+      <a href="../styles/pages.css" style="text-decoration:none; color: var(--text);">AutoGT</a>
+    </h1>
+
+    <form id="carRentalForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="pickupDate">Pickup Date:</label>
+      <input type="date" id="pickupDate" name="pickupDate" required>
+
+      <label for="returnDate">Return Date:</label>
+      <input type="date" id="returnDate" name="returnDate" required>
+
+      <div id="carCompaniesContainer" style="display:none;">
+        <label for="carCompany">Car Company:</label>
+        <select id="carCompany" name="carCompany"></select>
+      </div>
+<!-- Live price summary -->
+<div class="rent-summary" id="rentSummary" style="display:none;">
+  <div class="rent-summary-row">
+    <span>Days</span>
+    <strong id="rentDays">-</strong>
+  </div>
+
+  <div class="rent-summary-row">
+    <span>Total</span>
+    <strong id="rentTotal">-</strong>
+  </div>
+
+  <small class="rent-summary-note" id="rentNote"></small>
+</div>
+
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <button type="submit">Submit</button>
+        <input type="reset" class="resetbutton" value="Reset">
+      </div>
+    </form>
+  </div>
+
+  <script src="../pagesjavasc/orderpagejs.js"></script>
+  <script src="../pagesjavasc/navi-bar.js"></script>
+</body>
+</html>

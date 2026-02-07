@@ -1,0 +1,383 @@
+{
+  "currency": "AED",
+  "cars": [
+    {
+      "id": "toyota-vios-2023",
+      "brand": "Toyota",
+      "model": "corolla",
+      "year": 2023,
+      "category": "Sedan",
+      "pricePerDay": 40,
+      "transmission": "Automatic",
+      "seats": 4,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/Toyota/toyota-vios-573c1c64.jpeg"
+      ],
+      "features": ["Bluetooth", "USB", "A/C"],
+      "available": true,
+      "offer": true
+    },{
+      "id": "nissan-sunny",
+      "brand": "Nissan",
+      "model": "Sunny",
+      "year": 2017,
+      "category": "Sedan",
+      "pricePerDay": 35,
+      "transmission": "Automatic",
+      "seats": 4,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/sunny.png"
+      ],
+      "features": ["Bluetooth", "USB", "A/C"],
+      "available": true,
+      "offer": true
+    },{
+      "id": "hyundai elantra 2023",
+      "brand": "Hyundai",
+      "model": "Elantra",
+      "year": 2023,
+      "category": "Sedan",
+      "pricePerDay": 60,
+      "transmission": "Automatic",
+      "seats": 4,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/Toyota/image.png"
+      ],
+      "features": ["Bluetooth", "USB", "A/C"],
+      "available": true,
+      "offer": true
+    },
+    {
+      "id": "toyota-sedan-01",
+      "brand": "Toyota",
+      "model": "prado",
+      "year": 2022,
+      "category": "SUV",
+      "pricePerDay": 150,
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/Toyota/9b6f65c15710cf429362d8960d896758.jpg"
+      ],
+      "features": ["Cruise Control", "Rear Camera", "A/C"],
+      "available": true
+    },
+    {
+      "id": "toyota-sedan-02",
+      "brand": "Toyota",
+      "model": "fortuner",
+      "year": 2021,
+      "category": "SUV",
+      "pricePerDay": 130,
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/Toyota/0f406c8a7e403720d41078477dd54660.jpg"
+      ],
+      "features": ["Bluetooth", "USB", "A/C"  ],
+      "available": true
+    },
+    {
+      "id": "toyota-land-cruiser-2023",
+      "brand": "Toyota",
+      "model": "Land Cruiser Gr",
+      "year": 2023,
+      "category": "Offroad",
+      "pricePerDay": 320,
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/Land-Cruiser-2023-3.jpg"
+      ],
+      "features": ["7 Seats", "4x4", "Off-road Ready", "Rear Camera"],
+      "available": true
+    },
+      {
+      "id": "toyota-land-cruiser-2021",
+      "brand": "Toyota",
+      "model": "Land Cruiser Gxr",
+      "year": 2021,
+      "category": "SUV",
+      "pricePerDay": 230,
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/Toyota/778e7120d3910f4f9749bbbae5186b8a.jpg"
+      ],
+      "features": ["7 Seats", "4x4", "Off-road Ready", "Rear Camera"],
+      "available": true
+    },
+    {
+      "id": "jeep-wrangler-4xe-2023",
+      "brand": "Jeep",
+      "model": "Wrangler Willys 4xe",
+      "year": 2023,
+      "category": "Offroad",
+      "pricePerDay": 250,
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Hybrid",
+      "images": [
+        "../carPhotos/CUVScars/jeep-wrangler-willys-4xe-2023-exterior-oem-02.webp"
+      ],
+      "features": ["4x4", "Off-road", "Apple CarPlay", "Hard Top"],
+      "available": true
+    },
+    {
+      "id": "ford-bronco-raptor",
+      "brand": "Ford",
+      "model": "Bronco Raptor",
+      "year": 2023,
+      "category": "Offroad",
+      "pricePerDay": 220,
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/ford-bronco-raptor-47932.webp"
+      ],
+      "features": ["4x4", "Off-road", "Navigation", "Premium Sound"],
+      "available": true
+    },
+    {
+      "id": "mercedes-g63-2023",
+      "brand": "Mercedes",
+      "model": "G63 AMG",
+      "year": 2023,
+      "category": "Luxury",
+      "pricePerDay": 400,
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/mercedes-g63-4.webp"
+      ],
+      "features": ["Luxury", "4x4", "Leather", "Premium Sound"],
+      "available": true
+    },
+    {
+      "id": "mercedes-gle63-amg",
+      "brand": "Mercedes",
+      "model": "GLE63 AMG",
+      "year": 2023,
+      "category": "Luxury",
+      "pricePerDay": 450,
+      "transmission": "Automatic",
+      "seats": 5,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/Mercedes-GLE63-AMG-2.webp"
+      ],
+      "features": ["Luxury", "Performance", "Navigation", "Rear Camera"],
+      "available": true
+    },
+    {
+      "id": "ford-explorer-limited",
+      "brand": "Ford",
+      "model": "Explorer Limited",
+      "year": 2018,
+      "category": "SUV",
+      "pricePerDay": 400,
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/imgbin-ford-motor-company-sport-utility-vehicle-car-2018-ford-explorer-limited-ford-umeBwGX7Q1YP4t4q8eFfL3G0K.jpg"
+      ],
+      "features": ["7 Seats", "Family", "Rear Camera", "A/C"],
+      "available": true
+    },
+    {
+      "id": "Nissan-patrol-2023",
+      "brand": "Nissan",
+      "model": "Patrol 2023",
+      "year": 2023,
+      "category": "SUV",
+      "pricePerDay": 220,
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/Nissan-Patrol-Platinum-V8-white-2022-3.webp"
+      ],
+      "features": ["7 Seats", "Family", "Rear Camera", "A/C"],
+      "available": true
+    },
+     {
+      "id": "ford-F150-limited",
+      "brand": "Ford",
+      "model": "Raptor r",
+      "year": 2018,
+      "category": "Offroad",
+      "pricePerDay": 320,
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/01.jpg"
+      ],
+      "features": ["7 Seats", "Family", "Rear Camera", "A/C"],
+      "available": true
+    },
+         {
+      "id": "Ram trx",
+      "brand": "Dodge",
+      "model": "RAM-TRX",
+      "year": 2022,
+      "category": "Offroad",
+      "pricePerDay": 440,
+      "transmission": "Automatic",
+      "seats": 7,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/CUVScars/image.png"
+      ],
+      "features": ["7 Seats", "Family", "Rear Camera", "A/C"],
+      "available": true
+    },
+         {
+      "id": "911",
+      "brand": "Porsche",
+      "model": "911 turbo S",
+      "year": 2022,
+      "category": "Sport",
+      "pricePerDay": 850,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/por.png"
+      ],
+      "features": ["2 Seats", "Family", "Rear Camera", "A/C"],
+      "available": true,
+      "offer": true
+    },
+         {
+      "id": "chevrolet",
+      "brand": "Chevrolet",
+      "model": "Chevolet Corvette",
+      "year": 2022,
+      "category": "Sport",
+      "pricePerDay": 640,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/corvt.png"
+      ],
+      "features": ["2 Seats", "Family", "Rear Camera", "A/C"],
+      "available": true,
+      "offer": true
+    },
+         {
+      "id": "mini-cooper-s",
+      "brand": "Mini",
+      "model": "Cooper S",
+      "year": 2022,
+      "category": "Sedan",
+      "pricePerDay": 140,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/mini.png"
+      ],
+      "features": ["4 Seats", "Family", "Rear Camera", "A/C", "Leather Seats","adaptive cruise control"],
+      "available": true,
+      "offer": true
+    },
+         {
+      "id": "bmw-7-series",
+      "brand": "BMW",
+      "model": "7 Series",
+      "year": 2023,
+      "category": "Luxury",
+      "pricePerDay": 850,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/bmw7.png"
+      ],
+      "features": ["5 Seats", "Family", "Rear Camera", "A/C", "Leather Seats","adaptive cruise control"],
+      "available": true,
+      "offer": true
+    },
+       {
+      "id": "lexus-is",
+      "brand": "Lexus",
+      "model": "IS-fsport",
+      "year": 2026,
+      "category": "Sedan",
+      "pricePerDay": 280,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/is.png"
+      ],
+      "features": ["4 Seats", "Family", "Rear Camera", "A/C", "Leather Seats","adaptive cruise control"],
+      "available": true,
+      "offer": true
+    },
+      {
+      "id": "lexus-lx-2019",
+      "brand": "Lexus",
+      "model": "LX 570",
+      "year": 2019,
+      "category": "SUV",
+      "pricePerDay": 320,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/lexus-lx.png"
+      ],
+      "features": ["4 Seats", "Family", "Rear Camera", "A/C", "Leather Seats","adaptive cruise control"],
+      "available": true,
+      "offer": true
+    },
+      {
+      "id": "Gmc-sierra-2026",
+      "brand": "GMC",
+      "model": "Sierra 1500",
+      "year": 2026,
+      "category": "SUV",
+      "pricePerDay": 320,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/gmc-sierra.png"
+      ],
+      "features": ["4 Seats", "Family", "Rear Camera", "A/C", "Leather Seats","adaptive cruise control"],
+      "available": true,
+      "offer": true
+    }
+    ,
+      {
+      "id": "audi A5",
+      "brand": "Audi",
+      "model": "A5",
+      "year": 2022,
+      "category": "Sport",
+      "pricePerDay": 320,
+      "transmission": "Automatic",
+      "seats": 2,
+      "fuel": "Petrol",
+      "images": [
+        "../carPhotos/audi-a5.png"
+      ],
+      "features": ["4 Seats", "Family", "Rear Camera", "A/C", "Leather Seats","adaptive cruise control"],
+      "available": true,
+      "offer": true
+    }
+  ]
+}

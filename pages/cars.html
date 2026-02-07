@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cars | AutoGT</title>
+
+  <link rel="stylesheet" href="../styles/elements.css">
+<link rel="stylesheet" href="../styles/pages.css">
+
+</head>
+
+<body class="bodypage">
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#" onclick="navigateToHomePage();" style="color: rgb(255, 84, 84); font-weight: bolder;">AutoGT</a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#" onclick="navigateToHomePage(); " data-i18n="home">Home</a></li>
+        <li><a href="#" onclick="navigateToBrandPage();" data-i18n="brands">Brands</a></li>
+        <li><a href="#" onclick="navigateTolocationPage();" data-i18n="locations">Locations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="cars-wrap">
+    <div class="cars-toolbar">
+      <input id="carsSearch" class="cars-search" type="text" placeholder="Search...">
+      <select id="carsCategory" class="cars-select">
+        <option value="all" data-i18n="allcategories">All Categories</option>
+        <option value="Sedan" >Sedan</option>
+        <option value="SUV" >SUV</option>
+        <option value="Offroad">Offroad</option>
+        <option value="Luxury" >Luxury</option>
+        <option value="Sport" >sport</option>
+      </select>
+    </div>
+
+    <div id="carsGrid" class="cars-grid"></div>
+  </main>
+
+  <script src="../pagesjavasc/navi-bar.js"></script>
+  <script src="../pagesjavasc/cars-page.js"></script>
+  <script src="../pagesjavasc/settings.js"></script>
+
+</body>
+</html>
